@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Kinoble-Medium';
+    src: url('fonts/Kinoble-Medium.ttf') format('truetype');
+}
+p {
+    font-family: 'MyFont', sans-serif;
+}
+
+body{
+    background-color: #718096;
+}
+
+.post_box{
+    min-height: 200px;
+    max-height: 900px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.mother_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post_header{
+    text-align: center;
+}
+
+.post_text{
+    text-align: center;
+    font-size: 20px;
+}
+
+.post_created_at{
+    text-align: center;
+}
+
+.pagination{
+    text-align: center;
+
+}
+
+svg{
+    height: 100px;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Kinoble-Medium', sans-serif;
+}
+
+p{
+    font-family: 'Kinoble-Medium', sans-serif;
+}
